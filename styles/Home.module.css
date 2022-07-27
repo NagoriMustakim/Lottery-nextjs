@@ -137,3 +137,10 @@
   list-style: none;
   font-weight: bold;
 }
+.myimg{
+  border-radius: 10px;
+  margin: 20px;
+}
+.blogclass{
+  color: fuchsia;
+}
