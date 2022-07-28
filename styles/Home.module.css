@@ -45,9 +45,11 @@
   font-size: 4rem;
 }
 
-.title,
-.description {
+.ntn{
+  color:rgb(44, 188, 152);
   text-align: center;
+  /* background-color: rgb(221, 170, 170); */
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 
 .description {

@@ -4,23 +4,22 @@ import Image from "next/image";
 const blog = () => {
   return (
     <>
-      <h3>Blog on Raffle</h3>
-      <p>
-        If you want guaranteed cash for your cause, a 50/50 raffle is the place
-        to start when considering fundraising ideas. <br /> They’re fun and easy
-        for both fundraisers and donors, and a no-nonsense way to generate
-        income – fast. <br /> So we’ve put together everything you need to know
-        about 50/50 raffle fundraising in one comprehensive guide that will help
-        you succeed, <br /> whether this raffle is your first or your fiftieth!
-        What is a 50/50 Raffle? <br /> The clue is in the name! A 50/50 raffle
-        splits the income from raffle ticket sales 50/50…
-      </p>
-      <Image 
-        src="/Raffle.jpg"
-        alt="Picture of Lottery"
-        width={500}
-        height={500}
-      />
+      <h1 className={styles.blogh1}>Blogs</h1>
+      <h2>Blog on Raffle</h2>
+      <h4 className={styles.blogh4}>
+        A raffle is a gambling competition in which people obtain numbered
+        tickets, each of which has the chance of winning a prize
+      </h4>
+      <h2>Blog on Web-3</h2>
+      <h4 className={styles.blogh4}>
+        Web3 (also known as Web 3.0) is an idea for a new iteration of the World
+        Wide Web which incorporates concepts such as decentralization,
+        blockchain technologies, and token-based economics.
+      </h4>
+      <h2>Blog on blockchain</h2>
+      <h4 className={styles.blogh4}>A blockchain is a growing list of records, called blocks, that are securely linked together using cryptography.</h4>
+      <h2>Blog on NFT</h2>
+      <h4 className={styles.blogh4}>A non-fungible token NFT is a financial security consisting of digital data stored in a blockchain, a form of distributed ledger.</h4>
     </>
   );
 };

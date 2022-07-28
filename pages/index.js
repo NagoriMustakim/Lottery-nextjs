@@ -10,11 +10,27 @@ export default function Home() {
       <Head>
         <title>Lottery App</title>
       </Head>
-
+      <nav className={styles.mainnav}>
+        <ul>
+          <Link href="/">
+            <li>Home</li>
+          </Link>
+          <Link href="/about">
+            <li>About Us</li>
+          </Link>
+          <Link href="/blog">
+            <li>Blogs</li>
+          </Link>
+          <Link href="/contact">
+            <li>contact us</li>
+          </Link>
+        </ul>
+      </nav>
       <main className={styles.main}>
         <h1 className={styles.title}>
           Raffle Gainers <br />
         </h1>
+        <h3 className={styles.ntn}>Lottery blockchain node to node</h3>
         <Image
           className={styles.myimg}
           src="/lottery.jpg"
@@ -22,8 +38,6 @@ export default function Home() {
           width={800}
           height={500}
         />
-
-        <p className={styles.description}>Lottery blockchain node to node</p>
 
         <div className="blog">
           <div className="blogItem">
